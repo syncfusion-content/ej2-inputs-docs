@@ -19,25 +19,25 @@ Refer to the following example to change the appearance of the MaskedTextBox.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/maskedtextbox/custom css-cs1/index.ts %}
+{% include code-snippet/maskedtextbox/custom-css-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/maskedtextbox/custom css-cs1/index.html %}
+{% include code-snippet/maskedtextbox/custom-css-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "page.domainurl/code-snippet/maskedtextbox/custom css-cs1" %}
+{% previewsample "page.domainurl/code-snippet/maskedtextbox/custom-css-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/maskedtextbox/custom css-cs1/index.js %}
+{% include code-snippet/maskedtextbox/custom-css-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/maskedtextbox/custom css-cs1/index.html %}
+{% include code-snippet/maskedtextbox/custom-css-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/maskedtextbox/custom css-cs1" %}
+{% previewsample "page.domainurl/code-snippet/maskedtextbox/custom-css-cs1" %}
 {% endif %}

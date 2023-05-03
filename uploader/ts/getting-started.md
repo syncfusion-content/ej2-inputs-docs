@@ -180,14 +180,14 @@ You can handle the success and failure actions using the [success](../api/upload
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/uploader/success_failed-cs2/index.ts %}
+{% include code-snippet/uploader/success-failed-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/uploader/success_failed-cs2/index.html %}
+{% include code-snippet/uploader/success-failed-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "page.domainurl/code-snippet/uploader/success_failed-cs2" %}
+{% previewsample "page.domainurl/code-snippet/uploader/success-failed-cs2" %}
 
 > You can also explore [TypeScript File Upload](https://www.syncfusion.com/javascript-ui-controls/js-file-upload) feature tour page for its groundbreaking features. You can also explore our [TypeScript File Upload example](https://ej2.syncfusion.com/demos/#/material/uploader/default.html) that shows how to render the file upload and browse the files which you want to upload to the server.
 
