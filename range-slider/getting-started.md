@@ -127,9 +127,6 @@ npm start
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/slider/getting-started-cs1/index.js %}
-{% endhighlight %}
 {% highlight html tabtitle="index.html" %}
 {% include code-snippet/slider/getting-started-cs1/index.html %}
 {% endhighlight %}
