@@ -9,9 +9,9 @@ documentation: ug
 domainurl: ##DomainURL##
 ---
 
-# Reversible Slider in ##Platform_Name## Range Slider control
+# Reversible Range Slider control in ##Platform_Name##
 
-You can create a Range Slider rendered with values in reverse order by setting the `min` property to the maximum value and the `max` property to the minimum value. An example of how to achieve a Reversible Range Slider is shown below
+You can create a Range Slider rendered with values in reverse order by setting the [min](https://ej2.syncfusion.com/documentation/api/slider#min) property to the maximum value and the [max](https://ej2.syncfusion.com/documentation/api/slider#max) property to the minimum value. An example of how to achieve a reversible Range Slider is shown below
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -46,4 +46,4 @@ You can create a Range Slider rendered with values in reverse order by setting t
 {% previewsample "page.domainurl/code-snippet/slider/reversible-cs1" %}
 {% endif %}
 
-> Reversible order can be achieved with `Horizontal` orientation Range Slider by setting `enableRtl` as true.
+> Reversible order can be achieved with [Horizontal](https://ej2.syncfusion.com/documentation/api/slider/sliderOrientation/) orientation Range Slider by setting [enableRtl](https://ej2.syncfusion.com/documentation/api/slider#enablertl) as true.
