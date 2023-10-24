@@ -29,15 +29,23 @@ The following list of dependencies are required to use the MaskedTextBox compone
 
 Open the command prompt from the required directory, and run the following command to clone the Syncfusion JavaScript (Essential JS 2) quickstart project from [GitHub](https://github.com/SyncfusionExamples/ej2-quickstart-webpack-).
 
-```
-    git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack- ej2-quickstart
-```
+{% tabs %}
+{% highlight bash tabtitle="CMD" %}
+
+git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack- ej2-quickstart
+
+{% endhighlight %}
+{% endtabs %}
 
 After cloning the application in the `ej2-quickstart` folder, run the following command line to navigate to the `ej2-quickstart` folder.
 
-```
-    cd ej2-quickstart
-```
+{% tabs %}
+{% highlight bash tabtitle="CMD" %}
+
+cd ej2-quickstart
+
+{% endhighlight %}
+{% endtabs %}
 
 ## Add Syncfusion JavaScript packages
 
@@ -45,9 +53,13 @@ Syncfusion JavaScript (Essential JS 2) packages are available on the [npmjs.com]
 
 The quickstart application is preconfigured with the dependent [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package in the `~/package.json` file. Use the following command to install the dependent npm packages from the command prompt.
 
-```
-    npm install
-```
+{% tabs %}
+{% highlight bash tabtitle="NPM" %}
+
+npm install
+
+{% endhighlight %}
+{% endtabs %}
 
 ## Import the Syncfusion CSS styles
 
@@ -55,9 +67,13 @@ Syncfusion JavaScript controls come with [built-in themes](https://ej2.syncfusio
 
 The quickstart application is preconfigured to use the `Material` theme in the `~/src/styles/styles.css` file, as shown below: 
 
-```
-  @import "../../node_modules/@syncfusion/ej2/material.css";
-```
+{% tabs %}
+{% highlight css tabtitle="style.css" %}
+
+@import "../../node_modules/@syncfusion/ej2/material.css";
+
+{% endhighlight %}
+{% endtabs %}
 
 > You can check out the [themes](https://ej2.syncfusion.com/documentation/appearance/theme/) section to know more about built-in themes and CSS reference for individual controls.
 
@@ -67,7 +83,9 @@ Add the HTML input element that needs to be rendered as MaskedTextBox in the `in
 
 `[src/index.html]`
 
-```html
+{% tabs %}
+{% highlight html tabtitle="index.html" %}
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -89,13 +107,15 @@ Add the HTML input element that needs to be rendered as MaskedTextBox in the `in
 
 </html>
 
-```
+{% endhighlight %}
+{% endtabs %}
 
 Import the MaskedTextBox component into your `app.ts` and append it to the element `#mask` as shown in the following.
 
 `[src/app/app.ts]`
 
-```ts
+{% tabs %}
+{% highlight ts tabtitle="app.ts" %}
 
 import { MaskedTextBox } from '@syncfusion/ej2-inputs';
 
@@ -104,7 +124,8 @@ let mask: MaskedTextBox = new MaskedTextBox();
 
 mask.appendTo('#mask');
 
-```
+{% endhighlight %}
+{% endtabs %}
 
 ## Set the mask
 
@@ -112,7 +133,8 @@ You can set the mask to the MaskedTextBox to validate the user input by using th
 
 The following example demonstrates the usage of mask element `0` that allows any single digit from `0` to `9`.
 
-```ts
+{% tabs %}
+{% highlight ts tabtitle="app.ts" %}
 
 import { MaskedTextBox } from '@syncfusion/ej2-inputs';
 
@@ -124,15 +146,20 @@ let mask: MaskedTextBox = new MaskedTextBox({
 
 mask.appendTo('#mask');
 
-```
+{% endhighlight %}
+{% endtabs %}
 
 ## Run the application
 
 Use the `npm run start` command to run the application in the browser.
 
-```
+{% tabs %}
+{% highlight bash tabtitle="NPM" %}
+
 npm run start
-```
+
+{% endhighlight %}
+{% endtabs %}
 
 The following example shows the MaskedTextBox with the mask element `0`.
 
