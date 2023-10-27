@@ -64,7 +64,7 @@ To render Signature component, need to import inputs and its dependent component
 {% tabs %}
 {% highlight css tabtitle="style.css" %}
 
-@import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../../node_modules/@syncfusion/ej2-base/styles/material.css";
 
 {% endhighlight %}
 {% endtabs %}
