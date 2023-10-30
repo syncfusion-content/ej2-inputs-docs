@@ -77,8 +77,6 @@ To render NumericTextBox component, need to import inputs and its dependent comp
 {% endhighlight %}
 {% endtabs %}
 
-> You can check out the [themes](https://ej2.syncfusion.com/documentation/appearance/theme/) section to know more about built-in themes and CSS reference for individual controls.
-
 ## Add NumericTextBox to the project
 
 Add the HTML input element for the NumericTextBox into your `index.html`.

@@ -79,8 +79,6 @@ To render Colorpicker component, need to import inputs and its dependent compone
 {% endhighlight %}
 {% endtabs %}
 
-> You can check out the [themes](https://ej2.syncfusion.com/documentation/appearance/theme/) section to know more about built-in themes and CSS reference for individual controls.
-
 ## Add ColorPicker to the project
 
 Add the HTML input tag with ID attribute as the `element` to your `index.html` file.

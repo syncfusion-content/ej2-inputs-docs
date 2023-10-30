@@ -69,8 +69,6 @@ To render Signature component, need to import inputs and its dependent component
 {% endhighlight %}
 {% endtabs %}
 
-> You can check out the [themes](https://ej2.syncfusion.com/documentation/appearance/theme/) section to know more about built-in themes and CSS reference for individual controls.
-
 ## Adding Signature component to the application
 
 Add the HTML Canvas tag with the `id` attribute as `signature` to your `index.html` file.

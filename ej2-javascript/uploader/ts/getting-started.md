@@ -77,8 +77,6 @@ To render Uploader component, need to import inputs and its dependent components
 {% endhighlight %}
 {% endtabs %}
 
-> You can check out the [themes](https://ej2.syncfusion.com/documentation/appearance/theme/) section to know more about built-in themes and CSS reference for individual controls.
-
 ## Initialize the uploader
 
 The uploader can be initialized through input tag. Add the HTML input element that needs to be initialized as a uploader in `index.html`.

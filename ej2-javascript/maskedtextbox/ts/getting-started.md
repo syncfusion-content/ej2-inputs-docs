@@ -77,8 +77,6 @@ To render MaskedTextBox component, need to import inputs and its dependent compo
 {% endhighlight %}
 {% endtabs %}
 
-> You can check out the [themes](https://ej2.syncfusion.com/documentation/appearance/theme/) section to know more about built-in themes and CSS reference for individual controls.
-
 ## Add MaskedTextBox to the project
 
 Add the HTML input element that needs to be rendered as MaskedTextBox in the `index.html` file.

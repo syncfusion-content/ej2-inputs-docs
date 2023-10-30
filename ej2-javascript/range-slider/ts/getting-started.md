@@ -78,8 +78,6 @@ Combined CSS files are available in the Essential JS 2 package root folder. This
 {% endhighlight %}
 {% endtabs %}
 
-> You can check out the [themes](https://ej2.syncfusion.com/documentation/appearance/theme/) section to know more about built-in themes and CSS reference for individual controls.
-
 ## Adding Slider to the project
 
 Add the div element with the id attribute `#slider` inside the body tag in your `index.html`.

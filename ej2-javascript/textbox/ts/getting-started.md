@@ -76,8 +76,6 @@ To render TextBox component, need to import inputs and its dependent components 
 {% endhighlight %}
 {% endtabs %}
 
-> You can check out the [themes](https://ej2.syncfusion.com/documentation/appearance/theme/) section to know more about built-in themes and CSS reference for individual controls.
-
 ## Adding TextBox to the application
 
 Add the HTML Input element with `e-input` class into your `index.html`.
