@@ -76,8 +76,6 @@ To render Rating control, need to import inputs and its dependent controls style
 {% endhighlight %}
 {% endtabs %}
 
-> You can check out the [themes](https://ej2.syncfusion.com/documentation/appearance/theme/) section to know more about built-in themes and CSS reference for individual controls.
-
 ## Adding Rating to the Application
 
 Add the HTML input tag with ID attribute as the `rating` to your `index.html` file.
