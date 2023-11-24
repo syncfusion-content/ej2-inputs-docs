@@ -11,7 +11,10 @@ domainurl: ##DomainURL##
 
 # Getting started in ##Platform_Name## Range slider control
 
-The following section explains the required steps to build the Slider control with its basic usage in step-by-step procedure.
+This section explains how to create a simple Range Slider component and configure its available functionalities in TypeScript, using Essential JS 2 [quickstart](https://github.com/SyncfusionExamples/ej2-quickstart-webpack-) seed repository.
+
+> This application is integrated with the `webpack.config.js` configuration and uses the latest version of the [webpack-cli](https://webpack.js.org/api/cli/#commands). It requires node `v14.15.0` or higher. For more information about webpack and its features, refer to the [webpack documentation](https://webpack.js.org/guides/getting-started/).
+
 
 ## Dependencies
 
@@ -26,18 +29,54 @@ The following list of dependencies are required to use the Slider control in you
 
 ```
 
-## Set up your development environment
+## Set up development environment
 
-To get started with Slider control, you can clone the [Essential JS 2 quickstart](https://github.com/syncfusion/ej2-quickstart.git) project, and
-install the packages by using the following commands.
+Open the command prompt from the required directory, and run the following command to clone the Syncfusion JavaScript (Essential JS 2) quickstart project from [GitHub](https://github.com/SyncfusionExamples/ej2-quickstart-webpack-).
 
-```
-git clone https://github.com/syncfusion/ej2-quickstart.git quickstart
-cd quickstart
+{% tabs %}
+{% highlight bash tabtitle="CMD" %}
+
+git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack- ej2-quickstart
+
+{% endhighlight %}
+{% endtabs %}
+
+After cloning the application in the `ej2-quickstart` folder, run the following command line to navigate to the `ej2-quickstart` folder.
+
+{% tabs %}
+{% highlight bash tabtitle="CMD" %}
+
+cd ej2-quickstart
+
+{% endhighlight %}
+{% endtabs %}
+
+## Add Syncfusion JavaScript packages
+
+Syncfusion JavaScript (Essential JS 2) packages are available on the [npmjs.com](https://www.npmjs.com/~syncfusionorg) public registry. You can install all Syncfusion JavaScript (Essential JS 2) controls in a single [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package or individual packages for each control.
+
+The quickstart application is preconfigured with the dependent [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package in the `~/package.json` file. Use the following command to install the dependent npm packages from the command prompt.
+
+{% tabs %}
+{% highlight bash tabtitle="NPM" %}
+
 npm install
-```
 
-> The [project](https://github.com/syncfusion/ej2-quickstart.git) is preconfigured with the common settings (`src/styles/index.css`, `system.config.js`) to start with all Essential JS 2 controls.
+{% endhighlight %}
+{% endtabs %}
+
+## Import the Syncfusion CSS styles
+
+Combined CSS files are available in the Essential JS 2 package root folder. This can be referenced in the `~/src/styles/styles.css` file, as shown below: 
+
+{% tabs %}
+{% highlight css tabtitle="style.css" %}
+
+@import '../../node_modules/@syncfusion/ej2-base/styles/material.css';
+@import '../../node_modules/@syncfusion/ej2-inputs/styles/material.css';
+
+{% endhighlight %}
+{% endtabs %}
 
 ## Adding Slider to the project
 
@@ -45,7 +84,9 @@ Add the div element with the id attribute `#slider` inside the body tag in your 
 
 `[src/index.html]`
 
-```html
+{% tabs %}
+{% highlight html tabtitle="index.html" %}
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -57,13 +98,6 @@ Add the div element with the id attribute `#slider` inside the body tag in your 
     <meta name="author" content="Syncfusion" />
     <link rel="shortcut icon" href="resources/favicon.ico" />
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
-
-    <!--style reference from app-->
-    <link href="/styles/index.css" rel="stylesheet" />
-
-    <!--system js reference and configuration-->
-    <script src="node_modules/systemjs/dist/system.src.js" type="text/javascript"></script>
-    <script src="system.config.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -86,12 +120,14 @@ Add the div element with the id attribute `#slider` inside the body tag in your 
 
 </html>
 
-```
+{% endhighlight %}
+{% endtabs %}
 
 Import the  Slider control into your `app.ts` and append it to `#slider`
 `[src/app/app.ts]`
 
-```ts
+{% tabs %}
+{% highlight ts tabtitle="app.ts" %}
 
 import { Slider } from '@syncfusion/ej2-inputs';
 
@@ -101,184 +137,40 @@ let slider: Slider = new Slider();
 // Render initialized Slider
 slider.appendTo('#slider');
 
-```
+{% endhighlight %}
+{% endtabs %}
 
 ## Run the application
 
 The `Essential JS 2 quickstart` application project is configured to compile and run the application in browser. Use the following command to run the application.
 
-```
+{% tabs %}
+{% highlight bash tabtitle="NPM" %}
+
 npm start
-```
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/slider/getting-started-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/slider/getting-started-cs1/index.html %}
-{% endhighlight %}
-{% highlight css tabtitle="index.css" %}
-{% include code-snippet/slider/getting-started-cs1/index.css %}
 {% endhighlight %}
 {% endtabs %}
-        
-{% previewsample "page.domainurl/code-snippet/slider/getting-started-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/slider/getting-started-cs1/index.html %}
+{% include code-snippet/slider/getting-started-cs5/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/slider/getting-started-cs1/index.css %}
+{% include code-snippet/slider/getting-started-cs5/index.css %}
 {% endhighlight %}
 {% endtabs %}
+          
+{% previewsample "page.domainurl/code-snippet/slider/getting-started-cs5" %}
 
-{% previewsample "page.domainurl/code-snippet/slider/getting-started-cs1" %}
-{% endif %}
+## See Also
 
-## Types
+[Slider Types](./types/)
 
-The types of Slider are as follows:
+[Slider Formatting](./format/)
 
-| **Types** | **Usage** |
-| --- | --- |
-| Default | Shows a default Slider to select a single value. |
-| MinRange | Displays the shadow from the start value to the current selected value. |
-| Range | Selects a range of values. It also displays the shadow in-between the selection range. |
+[Orientation Slider](./orientation/)
 
->Both the Default Slider and Min-Range Slider have same behavior that is used to select a single value. In Min-Range Slider, a shadow is considered from the start value to current handle position. But the Range Slider contains two handles that is used to select a range of values and a shadow is considered in between the two handles.
+[Ticks in Slider](./ticks/)
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/slider/types-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/slider/types-cs1/index.html %}
-{% endhighlight %}
-{% highlight css tabtitle="index.css" %}
-{% include code-snippet/slider/types-cs1/index.css %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "page.domainurl/code-snippet/slider/types-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/slider/types-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/slider/types-cs1/index.html %}
-{% endhighlight %}
-{% highlight css tabtitle="index.css" %}
-{% include code-snippet/slider/types-cs1/index.css %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "page.domainurl/code-snippet/slider/types-cs1" %}
-{% endif %}
-
-## Customization
-
-### Orientation
-
-The Slider can be displayed, either in horizontal or vertical orientation. By default, the Slider renders in horizontal orientation.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/slider/getting-started-cs2/index.html %}
-{% endhighlight %}
-{% highlight css tabtitle="index.css" %}
-{% include code-snippet/slider/getting-started-cs2/index.css %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "page.domainurl/code-snippet/slider/getting-started-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/slider/getting-started-cs2/index.html %}
-{% endhighlight %}
-{% highlight css tabtitle="index.css" %}
-{% include code-snippet/slider/getting-started-cs2/index.css %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "page.domainurl/code-snippet/slider/getting-started-cs2" %}
-{% endif %}
-
-### Tooltip
-
-The Slider displays the tooltip to indicate the current value by clicking the Slider bar or drag the Slider handle. The Tooltip position can be customized by using the `placement` property. Also decides the tooltip display mode on a page, i.e., on hovering, focusing, or clicking on the Slider handle and it always remains/displays on the page.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/slider/getting-started-cs3/index.html %}
-{% endhighlight %}
-{% highlight css tabtitle="index.css" %}
-{% include code-snippet/slider/getting-started-cs3/index.css %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "page.domainurl/code-snippet/slider/getting-started-cs3" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/slider/getting-started-cs3/index.html %}
-{% endhighlight %}
-{% highlight css tabtitle="index.css" %}
-{% include code-snippet/slider/getting-started-cs3/index.css %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "page.domainurl/code-snippet/slider/getting-started-cs3" %}
-{% endif %}
-
-### Buttons
-
-The Slider value can be changed by using the Increase and Decrease buttons. In Range Slider, by default the first handle value will be changed while clicking the button. Change the handle focus and press the button to change the last focused handle value.
-
-> After enabling the slider buttons if the 'Tab' key is pressed, the focus goes to the handle and not to the button.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/slider/getting-started-cs4/index.html %}
-{% endhighlight %}
-{% highlight css tabtitle="index.css" %}
-{% include code-snippet/slider/getting-started-cs4/index.css %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "page.domainurl/code-snippet/slider/getting-started-cs4" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/slider/getting-started-cs4/index.html %}
-{% endhighlight %}
-{% highlight css tabtitle="index.css" %}
-{% include code-snippet/slider/getting-started-cs4/index.css %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "page.domainurl/code-snippet/slider/getting-started-cs4" %}
-{% endif %}
+[Tooltip in Slider](./tooltip/)
