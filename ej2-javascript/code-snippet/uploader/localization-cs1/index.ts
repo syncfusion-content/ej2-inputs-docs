@@ -26,8 +26,8 @@ L10n.load({
             "remove": "Retirer",
             "cancel": "Annuler",
             "delete": "Supprimer le fichier",
-            "totalFiles": 'Total des fichiers',
-            "size": 'taille'
+            "totalFiles": "Total des fichiers",
+            "size": "taille"
         }
     }
 })
