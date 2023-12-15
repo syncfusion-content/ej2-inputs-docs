@@ -52,7 +52,7 @@ In the following sample, the first tile of the color palette represents the no c
 {% previewsample "page.domainurl/code-snippet/colorpicker/no-color/default-cs1" %}
 {% endif %}
 
->if the noColor property is set to true, ensure that the modeswitcher property is set to false.
+>If the [`noColor`](../../api/color-picker/#nocolor) property is enabled, make sure to disable the [`modeswitcher`](../../api/color-picker/#modeswitcher) property.
 
 ## Custom no color
 
