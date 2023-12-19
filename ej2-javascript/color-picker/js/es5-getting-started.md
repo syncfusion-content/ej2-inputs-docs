@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Es5 getting started with ##Platform_Name## Color picker control | Syncfusion
-description:  Checkout and learn about Es5 getting started with ##Platform_Name## Color picker control of Syncfusion Essential JS 2 and more details.
+title: Es5 getting started with JavaScript Color Picker Control | Syncfusion
+description: Checkout and learn about Es5 getting started with JavaScript Color Picker control of Syncfusion Essential JS 2 and more details.
 platform: ej2-javascript
 control: Es5 getting started 
 publishingplatform: ##Platform_Name##
