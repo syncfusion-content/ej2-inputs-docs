@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Accessibility in ##Platform_Name## Maskedtextbox control | Syncfusion
-description: Learn here all about Accessibility in Syncfusion ##Platform_Name## Maskedtextbox control of Syncfusion Essential JS 2 and more.
+title: Accessibility in ##Platform_Name## Textbox control | Syncfusion
+description: Learn here all about Accessibility in Syncfusion ##Platform_Name## Textbox control of Syncfusion Essential JS 2 and more.
 platform: ej2-javascript
 control: Accessibility 
 publishingplatform: ##Platform_Name##
@@ -9,11 +9,11 @@ documentation: ug
 domainurl: ##DomainURL##
 ---
 
-# Accessibility in ##Platform_Name## Maskedtextbox control
+# Accessibility in ##Platform_Name## Textbox control
 
-The Maskedtextbox component followed the accessibility guidelines and standards, including [ADA](https://www.ada.gov/), [Section 508](https://www.section508.gov/), [WCAG 2.2](https://www.w3.org/TR/WCAG22/) standards, and [WCAG roles](https://www.w3.org/TR/wai-aria/#roles) that are commonly used to evaluate accessibility.
+The Textbox component followed the accessibility guidelines and standards, including [ADA](https://www.ada.gov/), [Section 508](https://www.section508.gov/), [WCAG 2.2](https://www.w3.org/TR/WCAG22/) standards, and [WCAG roles](https://www.w3.org/TR/wai-aria/#roles) that are commonly used to evaluate accessibility.
 
-The accessibility compliance for the Maskedtextbox component is outlined below.
+The accessibility compliance for the Textbox component is outlined below.
 
 | Accessibility Criteria | Compatibility |
 | -- | -- |
@@ -41,26 +41,22 @@ The accessibility compliance for the Maskedtextbox component is outlined below.
 
 ## WAI-ARIA attributes
 
-The MaskedTextBox is characterized with complete ARIA Accessibility support that helps to access through the on-screen readers and other assistive technology devices. This component is designed with the reference of the guidelines document given in [WAI ARAI Accessibility practices](https://www.w3.org/TR/wai-aria-1.1/#textbox).
+The Textbox is characterized with complete ARIA Accessibility support that helps to access through the on-screen readers and other assistive technology devices. This component is designed with the reference of the guidelines document given in [WAI ARAI Accessibility practices](https://www.w3.org/TR/wai-aria/#textbox).
 
-The MaskedTextBox uses the `textbox` role and following ARIA properties for its element based on its state.
+The Textbox uses the `textbox` role and following ARIA properties for its element based on its state.
 
 | **Property** | **Functionality** |
 | --- | --- |
-| aria-live | The `aria-live` attribute indicates the priority of updates to a live region. |
-| aria-disabled | The `aria-disabled` property indicates the disabled state of the MaskedTextBox. |
-| aria-valuenow | The `aria-valuenow` property specifies the current value of the MaskedTextBox. |
-| aria-invalid | The `aria-invalid` property indicates that the user input is incorrect or not within the acceptable ranges. |
-| aria-placeholder | The `aria-placeholder` is a short hint to help the users with data entry when the MaskedTextBox has no value. |
-| aria-labelledby | The `aria-labelledby` property indicates the floating label element of the MaskedTextBox. |
+| aria-placeholder | The `aria-placeholder` is a short hint to help the users with data entry when the Textbox has no value. |
+| aria-labelledby | The `aria-labelledby` property indicates the floating label element of the Textbox. |
 
 ## Ensuring accessibility
 
-The MaskedTextBox component's accessibility levels are ensured through an [accessibility-checker](https://www.npmjs.com/package/accessibility-checker) and [axe-core](https://www.npmjs.com/package/axe-core) software tools during automated testing.
+The Textbox component's accessibility levels are ensured through an [accessibility-checker](https://www.npmjs.com/package/accessibility-checker) and [axe-core](https://www.npmjs.com/package/axe-core) software tools during automated testing.
 
-The accessibility compliance of the MaskedTextBox component is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/masked-textbox.html) in a new window to evaluate the accessibility of the MaskedTextBox component with accessibility tools.
+The accessibility compliance of the Textbox component is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/textbox.html) in a new window to evaluate the accessibility of the Textbox component with accessibility tools.
 
-{% previewsample "https://ej2.syncfusion.com/accessibility/masked-textbox.html" %}
+{% previewsample "https://ej2.syncfusion.com/accessibility/textbox.html" %}
 
 ## See also
 
