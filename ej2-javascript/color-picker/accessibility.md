@@ -72,7 +72,7 @@ The Color picker component's accessibility levels are ensured through an [access
 
 The accessibility compliance of the Color picker component is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/color-picker.html) in a new window to evaluate the accessibility of the Color picker component with accessibility tools.
 
-{% previewsample "https://ej2.syncfusion.com/accessibility/color-picker.html" %}
+{% previewsample "page.domainurl/code-snippet/colorpicker/getting-started/default-cs1" %}
 
 ## See also
 
