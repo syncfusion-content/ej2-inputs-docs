@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Accessibility in ##Platform_Name## Range slider control | Syncfusion
-description: Learn here all about Accessibility in Syncfusion ##Platform_Name## Range slider control of Syncfusion Essential JS 2 and more.
+title: Accessibility in ##Platform_Name## Range Slider component | Syncfusion
+description: Learn here all about Accessibility in Syncfusion ##Platform_Name## Range Slider component of Syncfusion Essential JS 2 and more.
 platform: ej2-javascript
 control: Accessibility 
 publishingplatform: ##Platform_Name##
