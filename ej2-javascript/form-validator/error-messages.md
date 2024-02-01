@@ -70,7 +70,7 @@ The default error message for a rule can be customizable by defining it along wi
 
 ## Customizing Error Placement
 
-The `FormValidator` has an event [`customPlacement`](../api/form-validator#customplacement) which can be used to place the error message from default position to desired custom location.
+The `FormValidator` has an event [`customPlacement`](../api/form-validator/#customplacement) which can be used to place the error message from default position to desired custom location.
 
 {% if page.publishingplatform == "typescript" %}
 
