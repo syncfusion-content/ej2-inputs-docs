@@ -92,7 +92,7 @@ Add the HTML Textarea tag with the `id` attribute as `default` to your `index.ht
     <title>Essential JS 2 TextArea</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Essential JS 2 TextBox Components" />
+    <meta name="description" content="Essential JS 2 TextArea Components" />
     <meta name="author" content="Syncfusion" />
     <link href="index.css" rel="stylesheet" />
     <link href="https://cdn.syncfusion.com/ej2/20.3.56/ej2-base/styles/material.css" rel="stylesheet" />
@@ -150,10 +150,10 @@ The following example shows a basic TextArea control.
 {% include code-snippet/textarea/default-textarea-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/textbox/default-textarea-cs1/index.html %}
+{% include code-snippet/textarea/default-textarea-cs1/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="styles.css" %}
-{% include code-snippet/textbox/default-textarea-cs1/index.css %}
+{% include code-snippet/textarea/default-textarea-cs1/index.css %}
 {% endhighlight %}
 {% endtabs %}
         

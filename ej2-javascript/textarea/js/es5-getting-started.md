@@ -15,7 +15,7 @@ This section explains how to create a simple TextArea component and configure it
 
 ## Dependencies
 
-The following list of dependencies are required to use the TextBox component in your application.
+The following list of dependencies are required to use the TextArea component in your application.
 
 ```js
 |-- @syncfusion/ej2-inputs
