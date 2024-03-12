@@ -9,7 +9,7 @@ documentation: ug
 domainurl: ##DomainURL##
 ---
 
-# Getting started in ##Platform_Name## Textarea control
+# Getting started in ##Platform_Name## TextArea control
 
 This section explains how to create a simple TextArea component and configure its available functionalities in TypeScript, using Essential JS 2 [quickstart](https://github.com/SyncfusionExamples/ej2-quickstart-webpack-) seed repository.
 
@@ -78,7 +78,72 @@ To render TextArea component, need to import inputs and its dependent components
 
 ## Adding TextArea to the application
 
-Add the HTML Textarea element with `e-input` class into your `index.html`.
+Add the HTML Textarea tag with the `id` attribute as `default` to your `index.html` file.
+
+`[src/index.html]`
+
+{% tabs %}
+{% highlight html tabtitle="index.html" %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Essential JS 2 TextArea</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Essential JS 2 TextBox Components" />
+    <meta name="author" content="Syncfusion" />
+    <link href="index.css" rel="stylesheet" />
+    <link href="https://cdn.syncfusion.com/ej2/20.3.56/ej2-base/styles/material.css" rel="stylesheet" />
+    <link href="https://cdn.syncfusion.com/ej2/20.3.56/ej2-inputs/styles/material.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.19.38/system.js"></script>
+    <script src="systemjs.config.js"></script>
+</head>
+
+<body>
+    <div>
+        <!--Element to render the TextArea control-->
+        <textarea id="default"></textarea>
+    </div>
+</body>
+
+</html>
+
+{% endhighlight %}
+{% endtabs %}
+
+Then, import the TextArea component in your `app.ts` file and initialize it with the `#default`.
+
+`[src/app/app.ts]`
+
+{% tabs %}
+{% highlight ts tabtitle="app.ts" %}
+
+import { TextArea } from "@syncfusion/ej2-inputs";
+
+// Initializes the TextArea control
+let textareaObj: TextArea = new TextArea();
+
+// Render initialized TextArea.
+textareaObj.appendTo("#default");
+
+{% endhighlight %}
+{% endtabs %}
+
+## Run the application
+
+Run the application in the browser using the following command.
+
+{% tabs %}
+{% highlight bash tabtitle="NPM" %}
+
+npm start
+
+{% endhighlight %}
+{% endtabs %}
+
+The following example shows a basic TextArea control.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
