@@ -11,7 +11,7 @@ domainurl: ##DomainURL##
 
 # Floating Label in ##Platform_Name## TextArea control
 
-The floating label functionality in the TextArea control allows the placeholder text to float above the TextArea while the user interacts with it, providing a more intuitive user experience. This feature can be achieved using the [`floatLabelType`](../api/textarea/#floatLabelType) API, which offers various options for defining the floating behavior:
+The floating label functionality in the TextArea control allows the placeholder text to float above the TextArea while the user interacts with it, providing a more intuitive user experience. This feature can be achieved using the [floatLabelType](../api/textarea/#floatLabelType) API, which offers various options for defining the floating behavior:
 
 | Type  | Description |
 | -- | -- |

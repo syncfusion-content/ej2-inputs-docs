@@ -11,14 +11,14 @@ domainurl: ##DomainURL##
 
 # Resize in ##Platform_Name## TextArea control
 
-TextArea can be resized to adjust their size according to specific requirements. This resizing behavior can be enabled and configured using the [`resizeMode`](../api/textarea/#resizeMode) API, which offers several options for resizing the TextArea:
+The TextArea allows users to input and edit large amounts of text. Resizing this control effectively can enhance the user experience and accommodate varying content needs. This resizing behavior can be enabled and configured using the [resizeMode](../api/textarea/#resizeMode) API, which offers several options for resizing the TextArea:
 
 | Type  | Description |
 | -- | -- |
-| Vertical  | Allows users to adjust the height of the TextArea vertically. It is suitable when you want to resize the TextArea only along the vertical axis, accommodating varying amounts of text input. |
-| Horizontal | Allows users to adjust the width of the TextArea horizontally. This option is beneficial when developers need to accommodate longer lines of text within the TextArea while maintaining a fixed height. |
-| Both | Enables users to resize both the height and width of the TextArea, providing maximum flexibility in adjusting its size. This option is suitable for scenarios where users require complete control over the dimensions of the TextArea. |
-| None | Disables the resize in TextArea. This option is ideal for situations where you want to maintain a fixed size for the TextArea, preventing any unintended changes by users. |
+| Vertical  | Allows users to adjust the height of the TextArea vertically. It is suitable when users want to resize the TextArea only along the vertical axis, accommodating varying amounts of text input. |
+| Horizontal | Users can adjust the width of the TextArea horizontally. This option is helpful for accommodating longer lines of text without altering the height of the control. |
+| Both | Allows users to adjust both the height and width of the TextArea, offering maximum flexibility in resizing. It is ideal for situations where users need precise control over the dimensions of the TextArea. |
+| None | Disables the resizing in the TextArea. This option is ideal for situations where maintaining a consistent layout is critical, and resizing by users is unnecessary. |
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -56,7 +56,7 @@ TextArea can be resized to adjust their size according to specific requirements.
 
 ## Width of ##Platform_Name## TextArea control
 
-You can easily customize the width of the TextArea using the ['width'](../api/textarea/#width) property. This property allows precise adjustment of the TextArea's width according to the specific layout requirements of the application.
+You can easily customize the width of the TextArea using the [width](../api/textarea/#width) property. This property allows precise adjustment of the TextArea's width according to the specific layout requirements of the application.
 
 {% if page.publishingplatform == "typescript" %}
 
