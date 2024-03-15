@@ -11,7 +11,7 @@ domainurl: ##DomainURL##
 
 # Resize in ##Platform_Name## TextArea control
 
-TextArea can be resized to adjust their size according to specific requirements. This resizing behavior can be enabled and configured using the ['resizeMode'](../api/textarea/#resizeMode) API, which offers several options for resizing the TextArea:
+TextArea can be resized to adjust their size according to specific requirements. This resizing behavior can be enabled and configured using the [`resizeMode`](../api/textarea/#resizeMode) API, which offers several options for resizing the TextArea:
 
 | Type  | Description |
 | -- | -- |
