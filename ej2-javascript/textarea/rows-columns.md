@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Floating Label with ##Platform_Name## Textarea control | Syncfusion
+title: Rows and Columns count in ##Platform_Name## Textarea control | Syncfusion
 description: Adjusting the size of the ##Platform_Name## Textarea control of Syncfusion Essential JS 2 and more details.
 platform: ej2-javascript
 control: Rows and Columns Count

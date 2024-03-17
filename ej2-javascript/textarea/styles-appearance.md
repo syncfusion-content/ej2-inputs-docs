@@ -3,7 +3,7 @@ layout: post
 title: Style and appearance in ##Platform_Name## TextArea control | Syncfusion
 description: Learn here all about Style and appearance in Syncfusion ##Platform_Name## TextArea control of Syncfusion Essential JS 2 and more.
 platform: ej2-javascript
-control: Style appearance 
+control: Style and Appearance 
 publishingplatform: ##Platform_Name##
 documentation: ug
 domainurl: ##DomainURL##
