@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Resize images before uploading it to the server in ##Platform_Name## Uploader control | Syncfusion
+title: Resize images in ##Platform_Name## Uploader control | Syncfusion
 description: Learn here all about Resize images before uploading it to the server in Syncfusion ##Platform_Name## Uploader control of Syncfusion Essential JS 2 and more.
 platform: ej2-javascript
 control: Resize images before uploading it to the server 
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: ##DomainURL##
 ---
 
-# Resize images before uploading it to the server in ##Platform_Name## Uploader control
+# Resize images before upload to the server in Uploader control
 
 You can customize the dimension of the images before uploading it to the server. By using selected event, you can get the selected file information as type of an object. From the obtained image file information, create a new canvas and render an image with the custom dimensions. Refer the corresponding code snippet as follows.
 
