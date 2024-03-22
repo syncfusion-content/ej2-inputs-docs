@@ -48,7 +48,7 @@ This integration enhances the usability of forms, allowing users to provide deta
 {% previewsample "page.domainurl/code-snippet/textarea/form-support-cs1" %}
 {% endif %}
 
-# Integration of ##Platform_Name## TextArea control with FormValidator component
+## Integration of ##Platform_Name## TextArea control with FormValidator component
 
 TextArea control seamlessly integrates with the `FormValidator` component, allowing users to incorporate textarea inputs into form validation processes efficiently.
 
